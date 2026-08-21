@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5909604288534916059}
   - component: {fileID: 180047920875906065}
   - component: {fileID: 404569019748471674}
-  - component: {fileID: 3643794765957726953}
+  - component: {fileID: 5768712750421084849}
   - component: {fileID: 7319612883734323089}
   m_Layer: 5
   m_Name: InventoryItem
@@ -77,7 +77,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3643794765957726953
+--- !u!114 &5768712750421084849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,10 +86,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3252245057478605851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ae8eb517ac02b84d8156e0e1eae644f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d5ab4119dddca04f924c89015d2597b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItem
-  image: {fileID: 404569019748471674}
+  image: {fileID: 0}
   item: {fileID: 0}
 --- !u!114 &7319612883734323089
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: -6134140379656498118, guid: 9e25cb0ca2cad444797be69c57ffeed4, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3643794765957726953}
+      - m_Target: {fileID: 5768712750421084849}
         m_TargetAssemblyTypeName: InventoryItem, Assembly-CSharp
         m_MethodName: CallOpenExaminePanel
         m_Mode: 1

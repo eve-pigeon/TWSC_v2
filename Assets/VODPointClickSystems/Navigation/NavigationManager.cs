@@ -10,6 +10,7 @@ public class NavigationManager : MonoBehaviour
 
     public void SetNewView()
     {
+        Debug.Log("SetNewView function triggered");
         currentView.SetActive(false);
 
         if (!isNewView)

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 79a202007d8087a44947ca36fe474875
+guid: 6c6a337663d908249a97132b2d0ed5c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1988466164064450854
-    second: TownSquare_Sketch_0
+      213: -8829946974554503660
+    second: Alleyway_Sketch_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TownSquare_Sketch_0
+      name: Alleyway_Sketch_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad60e032f8c8764e0800000000000000
-      internalID: -1988466164064450854
+      spriteID: 416c42c720ab57580800000000000000
+      internalID: -8829946974554503660
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TownSquare_Sketch_0: -1988466164064450854
+      Alleyway_Sketch_0: -8829946974554503660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

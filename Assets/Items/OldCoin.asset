@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7802a4127e812464686d1d5043767be2, type: 3}
-  m_Name: CopperCoin
+  m_Name: OldCoin
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  icon: {fileID: 0}
+  icon: {fileID: 5480823840082314561, guid: b266ae1ec5562e94baaee922e49b262b, type: 3}
   type: 0
-  actionType: 0
+  actionType: 1
   itemName: Coin
-  description: An old copper coin. The carvings on it are illegible.
+  description: An old coin. The carvings on it are illegible.
   requiredItem: {fileID: 0}
   postCombinationItem: {fileID: 0}

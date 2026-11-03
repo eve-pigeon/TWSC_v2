@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d5ab4119dddca04f924c89015d2597b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItem
-  image: {fileID: 0}
+  image: {fileID: 404569019748471674}
   item: {fileID: 0}
 --- !u!114 &7319612883734323089
 MonoBehaviour:

@@ -151,6 +151,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2987483125856048455, guid: 891e43307dff9f74494c270b842c2900, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987483125856048455, guid: 891e43307dff9f74494c270b842c2900, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 08cf1e78efa1bde428552f6bd2f4e05b, type: 2}
+    - target: {fileID: 2987483125856048455, guid: 891e43307dff9f74494c270b842c2900, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987483125856048455, guid: 891e43307dff9f74494c270b842c2900, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2987483125856048455, guid: 891e43307dff9f74494c270b842c2900, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7810468102749349533, guid: 08cf1e78efa1bde428552f6bd2f4e05b, type: 2}
+    - target: {fileID: 2987483125856048455, guid: 891e43307dff9f74494c270b842c2900, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3187648081574299413, guid: 891e43307dff9f74494c270b842c2900, type: 3}
       propertyPath: m_fontSize
       value: 40
@@ -187,6 +211,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3948042959295419448, guid: 891e43307dff9f74494c270b842c2900, type: 3}
+      propertyPath: inventoryItemPrefab
+      value: 
+      objectReference: {fileID: 3252245057478605851, guid: d4f0d734e3d490a4eb05304b8e96ee73, type: 3}
     - target: {fileID: 4067187029691842238, guid: 891e43307dff9f74494c270b842c2900, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -605,7 +633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
   CurrentIDCounter: 1
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":296,\"yPos\":106},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Saphlow
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[],\"EditorInfo\":{\"isRoot\":true,\"xPos\":261,\"yPos\":297},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Saphlow
     Grove\u2026 You\u2019ve never heard of this place.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":null,\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 

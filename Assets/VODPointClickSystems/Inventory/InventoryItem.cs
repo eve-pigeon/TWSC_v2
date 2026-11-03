@@ -12,14 +12,17 @@ public class InventoryItem : MonoBehaviour
 
     public void InitialiseItem(Item newItem)
     {
+        Debug.Log("Item initialised");
         item = newItem;
         if (image != null)
         {
+            Debug.Log("Item image is not assigned");
             image.sprite = newItem.icon;
+            Debug.Log("Assigning new image");
         }
     }
 
-    public void CallOpenExaminePanel()
+        public void CallOpenExaminePanel()
     {
         if (InventoryManager.instance.itemInCombineMode)
         {

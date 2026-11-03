@@ -21,6 +21,7 @@ public class ItemPickup : MonoBehaviour
 
     public void PickUpItem()
     {
+        Debug.Log("PickupItem function called");
         InventoryManager.instance.AddItem(item);
         Debug.Log("Item added to inventory");
 

@@ -42,7 +42,7 @@ public class InventoryUI : MonoBehaviour
         if(pickupDisplayPanel != null)
         {
             pickupDisplayPanel.SetActive(true);
-            pickupText.text = "Picked up:" + item.itemName;
+            pickupText.text = "Picked up: " + item.itemName;
             pickupImage.sprite = item.icon;
 
             Invoke("EndPickupDisplay", 2f);
